@@ -13,12 +13,12 @@ function init() {
 	    	context.fillRect(x+1, y+1, cellSize-2, cellSize-2);
 	    	console.log ('x=',x,'y=',y);
 	    });
-	    /*field.setNumView(function() { // параметры шрифта для цифр
+	    field.setNumView(function() { // параметры шрифта для цифр
 	    	context.font = "bold "+(cellSize/2)+"px Sans";
 	    	context.textAlign = "center";
 	    	context.textBaseline = "middle";
 	    	context.fillStyle = "#222";
-	    });*/
+	    });
 	context.fillStyle = "#222";
 	context.fillRect(0, 0, canvas.width, canvas.height);
 	field.draw(context, cellSize);
